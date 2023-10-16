@@ -1,0 +1,19 @@
+@media screen and (max-width:376px) {
+    .side4 {
+        border-color: grey;
+        margin: 5px;
+        position: absolute;
+        padding: 0px 1px 381px 27px;
+        font-weight: bold;
+        font-size: 20px;
+        bottom: -74px;
+    }
+}
+@media (max-width:550px) {
+    .sidebar{
+         
+    }
+    .containter2{
+display: none ;
+    }
+}

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.search{
+    display: inline;
+    position: relative;
+    width: 45px;
+    padding: 45px;
+}
+.navbar{
+    /* background-color: black; */
+}
+@media (max-width:400px) {
+    .Amazonlogo{
+        height: 15px;
+    } 
+    .search{
+        display: inline;
+        position: relative;
+        width: 45px;
+        padding: 15px;
+    }
+}
+.sidebar.toggle-btn{
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+.toggle-btn .span {
+    
+    width: 45px;
+    height: 4px;
+    background-color: #000; /* Changed 'background' to 'background-color' */
+    display: block;
+    margin-top: 4px;
+}
+
+.sidebar{
+    left: -330px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+
+    background-color: "grey";
+    
+}
+a{
+    text-decoration: none;
+}
+.sidebar ul li{
+    list-style: none;
+    color: rgb(18, 6, 6);
+    padding: 0px 0px 20px;
+}
+.h2{
+    padding-top: 15px;
+    padding-right: 35px;
+    font-size: 20px;
+    bottom: 45px;
+}
+.side1{
+   
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #232f3e;
+    color: #ffffff;
+}
+.side1h1{
+    padding-top: 18px;
+    font-size: 15px;
+    left: 186px;
+    top: 0px;
+    position: absolute;
+}
+.ininside1{
+    margin: 5px;
+    display: flex;
+    color: #fff;
+    padding: 0px 25px 25px;
+    font-weight: bold;
+
+}
+.side2{
+    padding-left: 24px;
+    margin: 5px;
+    display: flex;
+    font-weight: bold;
+}
+.side3{
+    text-decoration: none;
+    margin: 5px;
+    padding: 0px 1px 20px 28px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inside3{position: absolute;
+    padding: 0px 1px 20px -6px;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+}
+.side4{
+    margin: 5px;
+    position: absolute;
+    padding: 0px 1px 381px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 91px;
+   
+}
+.inside4{
+    position: absolute;
+    padding: 0px 1px 20px 3px;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.side5{
+    margin: 5px;
+    position: absolute;
+    padding: 0px 1px 37px 1px;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 73px;
+}
+.inside5{
+    position: absolute;
+    padding: 0px 1px 20px 3px;
+    padding-top: 17px;
+    font-weight: 400;
+    font-size: 15px;
+}
